@@ -1,6 +1,6 @@
 # Transactional Outbox Pattern
 
-Companion code for the tutorial at [umurinan.com](https://umurinan.com).
+Companion code for the tutorial [The Transactional Outbox Pattern in Spring Boot](https://umurinan.com/pages/tutorials/transactional-outbox.html).
 
 The transactional outbox pattern solves a specific problem: you need to save something to the database *and* publish an event to Kafka, and you need both to succeed or neither to succeed. You can't do that with two separate operations - one might fail after the other succeeds.
 
